@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>საახალწლო ალბომი 🎄</title>
+  <meta name="theme-color" content="#07101c" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="snow"></canvas>
+  <div class="bg-glow"></div>
+
+  <main>
+    <header>
+      <div class="brand">
+        <div class="badge">🎄</div>
+        <div>
+          <h1>საახალწლო ალბომი</h1>
+          <p>თოვლი, მოგონებები და კარგი vibes ✨</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="smallbtn" onclick="document.getElementById('album').scrollIntoView({behavior:'smooth'})">
+          ალბომი
+        </button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="card intro" id="introCard">
+        <span class="kicker"><span class="dot"></span> მისალოცი</span>
+        <h2>Happy New Year! 🎆</h2>
+        <p class="msg">
+ბებერ გილოცავ ახალ წელს და დავაჯვი ამიკოს, მიყვარხარ ძაან და მინდა რომ ბედნიერი და გახარებული იყო სულ შენს საყვარელ ადამიანებთან ერთად ისე ტვინი რო გაგეხსნას და მითხრა მეც მიყვარხარო კაი იქნება
+        </p>
+
+        <div class="cta-row">
+          <button class="btn primary" data-enter>ალბომში შესვლა →</button>
+          <button class="btn secondary" data-copy>ტექსტის კოპირება</button>
+        </div>
+      </div>
+
+      <div class="card side">
+        <div class="panel">
+          <h3>როგორ დაამატო 3 ახალი ფოტო?</h3>
+          <p>
+            <b>assets</b> საქაღალდეში დაამატე 3 ფაილი (მაგ: <b>img11.jpg</b>, <b>img12.jpg</b>, <b>img13.jpg</b>)
+            და placeholder ბლოკები ჩაანაცვლე ფოტოების ბლოკებით.
+          </p>
+          <div class="chips">
+            <span class="chip">Responsive</span>
+            <span class="chip">Lightbox</span>
+            <span class="chip">Snow animation</span>
+            <span class="chip">New Year theme</span>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Tip</h3>
+          <p>feliz navidad
+             dururu dururu </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="album" id="album">
+      <div class="album-head">
+        <div>
+          <h2>ალბომი</h2>
+          <p>დააჭირე ფოტოს რომ გაიხსნას დიდად • ისრებით გადახვევაც შეიძლება</p>
+        </div>
+      </div>
+
+      <div class="grid">
+
+        <!-- ====== შენი 10 ფოტო (ჩაანაცვლე რეალური მისამართებით) ====== -->
+        <div class="tile" role="button" tabindex="0" data-src="assets/img01.jpg" data-title="ფოტო 1">
+          <img src="pirveli.jpg" alt="ფოტო 1">
+          <div class="cap">ფოტო 1</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img02.jpg" data-title="ფოტო 2">
+          <img src="ori.jpg" alt="ფოტო 2">
+          <div class="cap">ფოტო 2</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img03.jpg" data-title="ფოტო 3">
+          <img src="sami.jpg" alt="ფოტო 3">
+          <div class="cap">ფოტო 3</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img04.jpg" data-title="ფოტო 4">
+          <img src="otxi.jpg" alt="ფოტო 4">
+          <div class="cap">ფოტო 4</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img05.jpg" data-title="ფოტო 5">
+          <img src="xuti.jpg" alt="ფოტო 5">
+          <div class="cap">ფოტო 5</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img06.jpg" data-title="ფოტო 6">
+          <img src="eqvsi.jpg" alt="ფოტო 6">
+          <div class="cap">ფოტო 6</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img07.jpg" data-title="ფოტო 7">
+          <img src="shvidi.jpg" alt="ფოტო 7">
+          <div class="cap">ფოტო 7</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img08.jpg" data-title="ფოტო 8">
+          <img src="rv.jpg" alt="ფოტო 8">
+          <div class="cap">ფოტო 8</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img09.jpg" data-title="ფოტო 9">
+          <img src="cxra.jpg" alt="ფოტო 9">
+          <div class="cap">ფოტო 9</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img10.jpg" data-title="ფოტო 10">
+          <img src="ati.jpg" alt="ფოტო 10">
+          <div class="cap">ფოტო 10</div>
+        </div>
+        
+        <div class="tile" role="button" tabindex="0" data-src="assets/img11.jpg" data-title="ფოტო 11">
+          <img src="tertmet.jpg" alt="ფოტო 11">
+            <div class="cap">ფოტო 11</div>
+        </div>
+
+        <div class="tile" role="button" tabindex="0" data-src="assets/img12.jpg" data-title="ფოტო 12">
+          <img src="tormet.jpg" alt="ფოტო 12">
+            <div class="cap">ფოტო 12</div>
+            
+      </div>
+    </section>
+
+    <footer>
+      Made with ❤️ • საახალწლო ალბომი
+    </footer>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" aria-hidden="true">
+    <div class="frame" role="dialog" aria-modal="true" aria-label="ფოტოს გახსნა">
+      <div class="bar">
+        <div class="title" id="lbTitle">ფოტო</div>
+        <button class="x" id="lbClose">დახურვა ✕</button>
+      </div>
+      <img id="lbImg" src="" alt="გახსნილი ფოტო" />
+      <div class="nav">
+        <button id="lbPrev" aria-label="წინა">‹</button>
+        <button id="lbNext" aria-label="შემდეგი">›</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
